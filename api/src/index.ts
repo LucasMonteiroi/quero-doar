@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import { RegisterRoutes } from './routes/routes';
 import { swaggerSetup } from './config/swagger.config';
-import { EXPOSED_PORT } from './config/dotenv.config';
+import { EXPOSED_PORT, SWAGGER_BASE } from './config/dotenv.config';
 
 // Inicalizando express
 const app = express();
@@ -20,7 +20,7 @@ swaggerSetup(app);
 
 // Redirecionando qualquer endereço do browser para swagger
 app.get('*', function (req, res) {
-  res.redirect('/api/v1/docs');
+  res.redirect(`${SWAGGER_BASE}`);
 });
 
 // tslint:disable-next-line: no-console

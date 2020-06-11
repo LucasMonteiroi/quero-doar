@@ -6,9 +6,4 @@ export class IndexController extends Controller {
   public async index() {
     return { msg: 'Hello World!' };
   }
-
-  @Get('/msg')
-  public msg() {
-    return { msg: 'This is a message' };
-  }
 }

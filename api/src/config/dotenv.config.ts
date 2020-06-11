@@ -13,3 +13,4 @@ dotenv.config({ path: _path });
 
 // Variables
 export const EXPOSED_PORT = process.env.EXPOSED_PORT;
+export const SWAGGER_BASE = process.env.SWAGGER_BASE;
