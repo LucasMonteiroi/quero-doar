@@ -1,0 +1,23 @@
+{
+  "entryFile": "src/index.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/controllers/*controller.ts"],
+  "spec": {
+    "basePath": "/api/v1",
+    "outputDirectory": "./build",
+    "specVersion": 3,
+    "entryFile": "./src/index.ts",
+    "version": "1.0.0",
+    "name": "Quero Doar",
+    "description": "Plataforma de Doações",
+    "contact": {
+      "email": "lucasmonteiroi@outlook.com",
+      "name": "Lucas Monteiro Inacio"
+    }
+  },
+  "routes": {
+    "basePath": "/api/v1",
+    "routesDir": "./src/routes",
+    "middleware": "express"
+  }
+}
