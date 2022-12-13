@@ -46,7 +46,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-status-codes": "^1.4.0",
     "swagger-ui-express": "^4.1.4",
     "ts-node-dev": "^1.0.0-pre.44",
